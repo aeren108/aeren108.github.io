@@ -25,5 +25,11 @@
                 <i class="fa fa-instagram"></i>
             </a>
         {% endif %}
+
+        {% if site.author.email %}
+            <a href = "mailto: {{ site.author.email }}" class="social-links__entry">
+                <i class="fa fa-inbox"></i>
+            </a>
+        {% endif %}
     </ul>
 </header>
