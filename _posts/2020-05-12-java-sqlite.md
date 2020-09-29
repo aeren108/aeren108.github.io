@@ -19,7 +19,7 @@ Bu yazıda kısaca Java uygulamalarında SQLite veritabanının nasıl kullanıl
 
 ---
 
-#### **JDBC**
+### **JDBC**
 
 İlk önce Java'da herhangi bir veritabanıyla herhangi bir işlem yapabilmek için JDBC(Java Database Connectivity)'yi kullanmamız gerekiyor. JDBC, Java ile veritabanı arasındaki bağlantıyı sağlayan bir API ve JDBC, bağlanılan her farklı veritabanı için bir JDBC Driver'a ihtiyaç duyuyor. Örneğin, SQLite bir veritabınına bağlanmak için SQLite JDBC Driver'a, MySQL bir veritabanına bağlanmak için MySQL JDBC Driver'ına ihtiyacınız olacaktır. Aşağıdaki şema daha anlaşılır sanırsam.<br>
 
@@ -29,7 +29,7 @@ Bu yazıda kısaca Java uygulamalarında SQLite veritabanının nasıl kullanıl
 
 SQLite için JDBC Driver'ı [buradan](https://bitbucket.org/xerial/sqlite-jdbc/downloads/) indirebilirsiniz. Gradle veya Maven için de [buradan](https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc) erişilebilir.<br>
 
-#### **Veritabanı Bağlantısı Oluşturma**
+### **Veritabanı Bağlantısı Oluşturma**
 
 ```java
 import java.sql.*;
@@ -56,7 +56,7 @@ Bir de başka kaynaklarda gördüğüm ve yukarıda yorum halinde yazdığım `C
 
 ---
 
-#### **Tablo Oluşturma**
+### **Tablo Oluşturma**
 ```java
 //SQLiteDene.java
 
@@ -88,7 +88,7 @@ bu sınıfın `executeUpdate(tableSql)` metodunu kullanarak bir tablo oluşturdu
 
 ---
 
-#### **Tabloya Veri Yerleştirme**
+### **Tabloya Veri Yerleştirme**
 
 ```java
 //SQLiteDene.java
@@ -148,7 +148,7 @@ Soru işaretli yerlere değişkenleri yerleştirebildiğimizden dolayı kodumuz 
 
 ---
 
-#### **Tablodaki Verileri Çekme**
+### **Tablodaki Verileri Çekme**
 
 ```java
 //SQLiteDene.java
@@ -186,7 +186,7 @@ imleç bir ileri gidiyor yani bir sonraki satıra ve burada bir veri var olup ol
 
 ---
 
-#### **Tablodaki Veriyi Güncelleme** 
+### **Tablodaki Veriyi Güncelleme** 
 
 ```java
 //SQLDene.java
@@ -217,7 +217,7 @@ public void updateData(String isim, String adres, String eposta) {
 
 ---
 
-#### **Tablodan Veri Silme**
+### **Tablodan Veri Silme**
 
 ```java
 //SQLDene.java

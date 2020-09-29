@@ -16,7 +16,7 @@ PyAutoGUI kütüphanesini kullandım ama Selenium gibi farklı kütüphaneler de
 
 ---
 
-#### **Otomatik Şarkı Çalma Programı**
+### **Otomatik Şarkı Çalma Programı**
 
 Ders çalışırken veya bilgisayar uzağımdayken şarkı açmaya üşendiğim için böyle bir şey yapmaya karar verdim. Projeyi geliştirmeye başlamadan önce kafamdaki şeyler şunlardı:
 
@@ -127,7 +127,7 @@ Ama yine programda hala bazı tam olarak çözemediğim ses algılama ile ilgli 
 
 ---
 
-#### **Otomatik Sayfa Kaydırma Programı**
+### **Otomatik Sayfa Kaydırma Programı**
 
 Bilgisayarda bir şey okurken sabit durduğum için ellerim üşüyordu ve ellerimi cebime sokmak istiyordum fakat okuduğum sayfayı da okudukça aşağı kaydırmam gerekiyordu. Buna çözüm bulmak için böyle bir program geliştirdim.<br>
 İlk başta programın şöyle çalışmasını planlıyordum: Program kameradan beni izleyecek ve kafamı aşağıya eğdiğimde sayfa aşağı kayacak ve kafamı yukarı kaldırdığımda ise sayfa yukarı doğru kayacak ve kafam düz durduğunda ise sayfa kaymayacak. [OpenCV]() kütüphanesi bu proje için biçilmiş kaftandı, görüntü işleme, obje algılama istediğim her şeyi yapıyordu.<br><br>

@@ -6,7 +6,7 @@ date: 2020-01-22
 comments: false
 ---
 
-#### **Neler Yeni ?**
+### **Neler Yeni ?**
 Bir önceki devlog'dan bu yana eklediklerim:
 * Dash hareketi
 * Alev topları
@@ -38,10 +38,10 @@ Eğlenceli bir arkaplan müziği de ekledim, oyuna farklı bir hava kattı.
   <source src="../../../../assets/vid/kaymakrecord2.mp4" type="video/mp4">
 </video>
 
-#### **Ne Planlıyorum ?**
+### **Ne Planlıyorum ?**
 Savrulmayı dediğim gibi ivmeli bir hareket haline getirmem gerek. Alev topunun çarpma ses efektini değiştireceğim. Oyunun diğer bir mekaniği olan lazerleri ekleyeceğim. Bir de eğer halledebilirsem dash hareketi için animasyon ekleyeceğim. Sonraki devlog'a kadar yapmayı düşündüklerim bu kadar.
 
-#### *Devlog Serisi*
+### *Devlog Serisi*
 
 * [*Indie Oyun Devlog #1*](https://aerenpozitif.com/devlog/post/game-devlog-1.html)
 * [*Indie Oyun Devlog #2*](https://aerenpozitif.com/devlog/post/game-devlog-2.html)

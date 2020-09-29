@@ -6,7 +6,7 @@ date: 2020-02-02
 comments: false
 ---
 
-#### **Neler Yeni ?**
+### **Neler Yeni ?**
 Aradan yaklaşık bir hafta geçti ve aşağıdakileri oyuna ekleyebildim. Evet, ivmeli hareket etmeyi ve yeni bir animasyon eklemedim çünkü daha önemli yerlere odaklanmak istedim.
 
 * Lazerler
@@ -44,10 +44,10 @@ Deneme amaçlı tileset'in mavi bir versiyonunu da ekledim ama güzel durmadı. 
 *Ufak dipnot: Videonun kalitesinden dolayı ana menü butonlarındaki yazılar okunamamış, tamamen video kaynaklı oyunda sıkıntı yok. Zaten font'unu değiştireceğim.* 
 <br>  
 
-#### **Ne Planlıyorum ?**
+### **Ne Planlıyorum ?**
 Multiplayer için istemci ve sunucuyu geliştirmeye başlaycağım. Multiplayer için menüleri bitireceğim ve ESC menüsünü yapacağım. Sadece bunları yapmayı planlıyorum. Çünkü multiplayer işi yorucu olacak zaten epey.
 
-#### *Devlog Serisi*
+### *Devlog Serisi*
 
 * [*Indie Oyun Devlog #1*](https://aerenpozitif.com/devlog/post/game-devlog-1.html)
 * [*Indie Oyun Devlog #2*](https://aerenpozitif.com/devlog/post/game-devlog-2.html)
