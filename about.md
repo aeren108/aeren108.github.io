@@ -1,14 +1,11 @@
 ---
 layout: page
-title: 
-subtitle: अमेय जालीहाळ | ಅಮೇಯ ಜಾಲೀಹಾಳ | /əmeɪjʌ/ /'dʒɑlihɑl/
+title: Ben Kimim ?
+subtitle:
 permalink: /about/
 ---
 
-<img align="right" width="300" height="300" src="/Images/trdlnik_cropped.png">
+Kendim için kullanabileceğim en kısa ve öz tabir, programlamaya tutkulu bir lise öğrencisi olur herhalde.
+Bu tutku 12 yaşındayken Scratch ile başladı ve zamanla arttı. Gittikçe daha fazla öğrendim ve hala da öğreniyorum. <br>
 
-Welcome! I am a Cell and Molecular Biology graduate student at the University of Michigan. For my PhD work, I am using single-molecule fluorescence microscopy tools to study protein translation in cancer cells under the mentorship of [Prof. Nils Walter](https://sites.lsa.umich.edu/walter-lab/).
-
-Outside the lab, I enjoys coffee and classical Indian music (like a true Chennai native), cooking, being outdoors and thinking about representation and identity.
-
-Say hello at ameyapj at umich dot edu.
+Burası da öğrendiklerimi ve öğrenirken geliştirdiğim projelerimi paylaştığım blogumsu yer.
