@@ -6,12 +6,12 @@ body {
 }
 
 a {
-    color: $cloudy;
+    color: $link;
     font-weight: bold;
     text-decoration: none;
 
     &:hover {
-
+        text-decoration: underline;
     }
 }
 
@@ -103,6 +103,7 @@ strong {
 
 .menu__entry a {
     font-weight: 400;
+    color: $cloudy;
 }
 
 .menu__entry a:hover {
