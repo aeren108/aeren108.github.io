@@ -105,6 +105,10 @@ strong {
     font-weight: 400;
 }
 
+.menu__entry a:hover {
+    text-decoration: underline;
+}
+
 .social-links {
     float:right;
     font-size: 24px;
@@ -126,7 +130,7 @@ strong {
 
 .page-title__text {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .page-title__subtitle {
@@ -140,7 +144,7 @@ strong {
 }
 
 .post-title__text {
-    font-size: 40px;
+    font-size: 36px;
 }
 
 .post-title__subtitle {
