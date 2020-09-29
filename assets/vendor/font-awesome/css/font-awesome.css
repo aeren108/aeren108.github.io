@@ -634,6 +634,7 @@
 }
 .fa-github:before {
   content: "\f09b";
+  color: $cloudy;
 }
 .fa-unlock:before {
   content: "\f09c";
@@ -801,6 +802,7 @@
 }
 .fa-envelope:before {
   content: "\f0e0";
+  color: $cloudy;
 }
 .fa-linkedin:before {
   content: "\f0e1";
@@ -1218,6 +1220,7 @@
 }
 .fa-instagram:before {
   content: "\f16d";
+  color: $cloudy;
 }
 .fa-flickr:before {
   content: "\f16e";
