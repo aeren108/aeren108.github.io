@@ -68,10 +68,11 @@ strong {
    border-bottom: 1px solid #000; 
    line-height: 0.1em;
    margin: 10px 0 20px;
-   color: $cloudy;
+   background-color: $cloudy;
 } 
 
-.year-seperator span { 
+.year-seperator span {
+    background-color: $dorian;
     padding:0 10px; 
 }
 
