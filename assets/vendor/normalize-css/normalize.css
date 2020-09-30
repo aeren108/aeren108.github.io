@@ -236,7 +236,7 @@ kbd,
 pre,
 samp {
   font-family: Monaco,Consolas,"Andale  Mono","DejaVu Sans Mono",monospace
-  font-size: 12px;
+  font-size: 14px;
 }
 
 code {
@@ -245,7 +245,7 @@ code {
     -webkit-border-radius: 5px; 
     border: 1px solid #BCBEC0;
     padding: 2px;
-    font:12px Monaco,Consolas,"Andale  Mono","DejaVu Sans Mono",monospace
+    font:14px Monaco,Consolas,"Andale  Mono","DejaVu Sans Mono",monospace
 }
 
 /* Forms
