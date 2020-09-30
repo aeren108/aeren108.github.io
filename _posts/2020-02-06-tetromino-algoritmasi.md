@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tetromino Döndürme Algoritması"
-categories: [algorithms]
+categories: [karalamalar]
 date: 2020-02-06
 comments: false
 ---

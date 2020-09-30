@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Python ile Otomasyon Denemeleri"
-categories: [projects]
+categories: [karalamalar]
 date: 2020-05-17
 comments: false
 ---
 
-Bu yazı da Python kullanarak bilgisayar kullanırken hayatımı kolaylaştırabilecek geliştirdiğim otomasyon projeleri hakkında konuşacağım.<br>
+Bu yazıda Python kullanarak bilgisayar kullanırken hayatımı kolaylaştırabilecek geliştirdiğim otomasyon projeleri hakkında konuşacağım.<br>
 PyAutoGUI kütüphanesini kullandım ama Selenium gibi farklı kütüphaneler de kullanılabilir. PyAutoGUI dökümantasyonu için 
 [bu sayfaya](https://pyautogui.readthedocs.io/en/latest/) gidebilirsiniz.<br>
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sync Notes"
-categories: [projects]
+categories: [projeler]
 date: 2019-05-20
 comments: false
 ---

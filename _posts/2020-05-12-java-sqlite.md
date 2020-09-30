@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Java ile SQLite Veritabanı"
-categories: [projects]
+categories: [karalamalar]
 date: 2020-05-12
 comments: false
 ---

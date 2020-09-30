@@ -23,7 +23,7 @@ Lazerlerle ilgili güzel bir özellik de dash atarken lazerlerin sizi çarpmamas
 Lazerler kısaca böyle, videoda da gözüküyorlar.<br>
 
 **Ekran Sistemi ve UI** <br>
-Nedir ekran sistemi ? Hemmen açıklıyorum. Ekran sistemi oyunda farklı ekranlara geçiş yapabilmeyi mümkün kılan bir şey. Yani ana menüden ayarlara veya oyun ekranına geçebilmeniz gibi. Ana menüyü kabaca yaptım böylece. Oyun açıldığında laks diye alev topları falan fışkırmıyor artık. Sakince ana menü açılıyor ve oradan oyuna geçiyorsunuz. Şu an menü çok ilkel biliyorum, sona bırakıyorum genelde böyle işleri.<br>
+Nedir ekran sistemi ? Hemen açıklıyorum. Ekran sistemi oyunda farklı ekranlara geçiş yapabilmeyi mümkün kılan bir şey. Yani ana menüden ayarlara veya oyun ekranına geçebilmeniz gibi. Ana menüyü kabaca yaptım böylece. Oyun açıldığında laks diye alev topları falan fışkırmıyor artık. Sakince ana menü açılıyor ve oradan oyuna geçiyorsunuz. Şu an menü çok ilkel biliyorum, sona bırakıyorum genelde böyle işleri.<br>
 
 **3 Boyutlu Ses Efektleri** <br>
 Alev toplarından herhangi bir ses çıkmıyordu ama lazerleri ekleyince bunu yapmak farz oldu. Çünkü lazer yani, 'dızzz' diye ses çıkması lazım ondan. Demek istediğim 3 kilometre ötedeki lazerin sesini değil, sadece yakınızda olan lazerlerin sesini duymanız gerekiyor. 3 boyutlu sesler bunu çözüyor üstüne üstlük sağdan soldan gelen sesleri de sağ ve sol hoparlöre ayrı ayrı veriyorlar.<br> 

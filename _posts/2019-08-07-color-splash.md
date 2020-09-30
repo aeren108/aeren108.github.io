@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Color Splash"
-categories: [projects]
+categories: [projeler]
 date: 2019-08-07
 comments: false
 ---

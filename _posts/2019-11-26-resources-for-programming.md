@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Programlama için Kaynaklar"
-categories: [projects]
+categories: [karalamalar]
 date: 2019-11-26
 comments: false
 ---
