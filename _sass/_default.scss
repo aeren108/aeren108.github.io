@@ -67,7 +67,7 @@ strong {
    text-align: center; 
    border-bottom: 1px solid $cloudy; 
    line-height: 0.1em;
-   margin: 16px 0 16px;
+   margin: 20px 0 20px;
 } 
 
 .year-seperator span {
@@ -179,15 +179,18 @@ strong {
     font-weight: normal;
 }
 
-.post-teaser__title {
-    font-size: 22px;
-    color: $iron;
+.post-teaser a {
     text-decoration: underline;
     text-decoration-color: $link;
 
     &:hover {
         text-decoration-color: $link-hover;
     }
+}
+
+.post-teaser__title {
+    font-size: 22px;
+    color: $iron;
 }
 
 .post-teaser__date {
