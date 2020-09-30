@@ -19,6 +19,11 @@ p {
     line-height: 28px;
 }
 
+ul {
+    font-size: 20px;
+    line-height: 28px;
+}
+
 img {
     margin: 40px auto;
     display: block;
@@ -276,6 +281,11 @@ strong {
 @media (max-width: 800px) {
     /* =Base */
     p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    ul {
         font-size: 16px;
         line-height: 1.6;
     }
