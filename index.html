@@ -23,8 +23,8 @@ sitemap:
           <a href="{{ post.url | prepend: site.baseurl }}">
               <span class="post-teaser__title">{{ post.title }}</span>
               <span class="post-teaser__date">
-                {% assign m = page.date | date: "%-m" %}
-                {{ page.date | date: "%-d" }}
+                {% assign m = post.date | date: "%-m" %}
+                {{ post.date | date: "%-d" }}
                 {% case m %}
                   {% when '1' %}Ocak
                   {% when '2' %}Şubat
@@ -39,7 +39,7 @@ sitemap:
                   {% when '11' %}Kasım
                   {% when '12' %}Aralık
                 {% endcase %}
-                {{ page.date | date: "%Y" }}
+                {{ post.date | date: "%Y" }}
               </span>
           </a>
       </li>
