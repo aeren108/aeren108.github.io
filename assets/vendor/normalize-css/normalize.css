@@ -144,12 +144,9 @@ h3 {
 }
 
 ul {
-  font-size: 20px;
+  font-size: 16px;
 }
 
-li {
-  font-size: 20px;
-}
 
 /**
  * Address styling not present in IE 8/9.
