@@ -12,9 +12,11 @@ sitemap:
       {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
       {% if forloop.first %}
-        <div class="year-seperator"> 
-          <span>{{this_year}}</span>
-        </div>
+        <li>
+          <div class="year-seperator"> 
+            <span>{{this_year}}</span>
+          </div>
+        </li>
       {% endif %}
 
       <li class="post-teaser">
@@ -26,9 +28,11 @@ sitemap:
 
       {% if forloop.last == false %}
         {% if this_year != next_year %}
-          <div class="year-seperator"> 
-            <span>{{next_year}}</span>
-          </div>
+          <li>
+            <div class="year-seperator"> 
+              <span>{{next_year}}</span>
+            </div>
+          </li>
         {% endif %}
       {% endif %}
 
