@@ -138,6 +138,11 @@ h1 {
   margin: 0.67em 0;
 }
 
+h2 {
+  font-size: 1.2em;
+
+}
+
 /**
  * Address styling not present in IE 8/9.
  */
@@ -230,8 +235,17 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
-  font-size: 1em;
+  font-family: Monaco,Consolas,"Andale  Mono","DejaVu Sans Mono",monospace
+  font-size: 12px;
+}
+
+code {
+    border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border: 1px solid #BCBEC0;
+    padding: 2px;
+    font:12px Monaco,Consolas,"Andale  Mono","DejaVu Sans Mono",monospace
 }
 
 /* Forms
