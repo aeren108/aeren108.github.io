@@ -189,13 +189,16 @@ strong {
 
     &:hover {
         text-decoration-color: $link-hover;
-        color: #444;
     }
 }
 
 .post-teaser__title {
     font-size: 22px;
     color: $iron;
+
+    &:hover {
+        color: #444;
+    }
 }
 
 .post-teaser__date {
