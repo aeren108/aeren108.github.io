@@ -65,15 +65,15 @@ strong {
 .year-seperator {
    width: 100%; 
    text-align: center; 
-   border-bottom: 1px solid #000; 
+   border-bottom: 1px solid $cloudy; 
    line-height: 0.1em;
    margin: 10px 0 20px;
-   background-color: $cloudy;
 } 
 
 .year-seperator span {
+    padding:0 10px;
     background-color: $dorian;
-    padding:0 10px; 
+    color: $cloudy;
 }
 
 /* =Header */
