@@ -651,7 +651,7 @@
   color: $cloudy;
 }
 .fa-rss:hover {
-  color: #f26522;
+  color: #e35c1b;
 }
 .fa-hdd-o:before {
   content: "\f0a0";
@@ -1233,7 +1233,7 @@
   color: $cloudy;
 }
 .fa-instagram:hover {
-  color: #3476c2;
+  color: #2d6596;
 }
 .fa-flickr:before {
   content: "\f16e";
