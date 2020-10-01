@@ -65,14 +65,6 @@ strong {
     color: $iron;
 }
 
-::-moz-selection { /* Code for Firefox */
-    background: #FEA47F;
-}
-
-::selection {
-    background: #FEA47F;
-}
-
 .year-seperator {
    width: 100%; 
    text-align: center; 
