@@ -10,30 +10,30 @@
     <ul class="social-links">
         {% if site.author.github %}
             <a href="https://github.com/{{ site.author.github }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-github"></i>
+                <i class="fa fa-github" title="Github"></i>
             </a>
         {% endif %}
 
         {% if site.author.twitter %}
             <a href="https://twitter.com/{{ site.author.twitter }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-twitter"></i>
+                <i class="fa fa-twitter" title="Twitter"></i>
             </a>
         {% endif %}
         
         {% if site.author.instagram %}
             <a href="https://instagram.com/{{ site.author.instagram }}" class="social-links__entry" target="_blank">
-                <i class="fa fa-instagram"></i>
+                <i class="fa fa-instagram" title="Instagram"></i>
             </a>
         {% endif %}
 
         {% if site.author.email %}
             <a href="mailto: {{ site.author.email }}" class="social-links__entry">
-                <i class="fa fa-envelope"></i>
+                <i class="fa fa-envelope" title="E-Posta"></i>
             </a>
         {% endif %}
 
         <a href="/feed.xml" class="social-links__entry">
-            <i class="fa fa-rss"></i>
+            <i class="fa fa-rss" title="RSS"></i>
         </a>
     </ul>
 </header>
