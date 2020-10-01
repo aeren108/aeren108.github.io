@@ -27,9 +27,13 @@
         {% endif %}
 
         {% if site.author.email %}
-            <a href = "mailto: {{ site.author.email }}" class="social-links__entry">
+            <a href="mailto: {{ site.author.email }}" class="social-links__entry">
                 <i class="fa fa-envelope"></i>
             </a>
         {% endif %}
+
+        <a href="/feed.xml" class="social-links__entry">
+            <i class="fa fa-rss"></i>
+        </a>
     </ul>
 </header>

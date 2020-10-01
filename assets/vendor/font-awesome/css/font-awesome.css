@@ -636,6 +636,9 @@
   content: "\f09b";
   color: $cloudy;
 }
+.fa-github:hover {
+  color: #333;
+}
 .fa-unlock:before {
   content: "\f09c";
 }
@@ -645,6 +648,10 @@
 .fa-feed:before,
 .fa-rss:before {
   content: "\f09e";
+  color: $cloudy;
+}
+.fa-rss:hover {
+  color: #f26522;
 }
 .fa-hdd-o:before {
   content: "\f0a0";
@@ -803,6 +810,9 @@
 .fa-envelope:before {
   content: "\f0e0";
   color: $cloudy;
+}
+.fa-envelope:hover {
+  color: #475a63;
 }
 .fa-linkedin:before {
   content: "\f0e1";
@@ -1221,6 +1231,9 @@
 .fa-instagram:before {
   content: "\f16d";
   color: $cloudy;
+}
+.fa-instagram:hover {
+  color: #3476c2;
 }
 .fa-flickr:before {
   content: "\f16e";
