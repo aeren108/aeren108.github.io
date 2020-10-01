@@ -66,13 +66,11 @@ strong {
 }
 
 ::-moz-selection { /* Code for Firefox */
-    color: white;
-    background: #9955bb;
+    background: #ffdb58;
 }
 
 ::selection {
-    color: white;
-    background: #9955bb;
+    background:  #ffdb58;
 }
 
 .year-seperator {
