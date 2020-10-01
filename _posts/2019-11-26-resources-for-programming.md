@@ -44,10 +44,10 @@ comments: false
 * [sina5an](https://www.youtube.com/watch?v=QmwC_p0OGmI&list=PLHfYetw_BGF-Gm_MsqKApw5nHPuHsytr3)
 * [Geleceği Yazanlar](https://gelecegiyazanlar.turkcell.com.tr) 
 * [Mobilhanem](https://www.mobilhanem.com) 
-* [javidx9](https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA) en
+* [javidx9](https://www.youtube.com/channel/UC-yuWVUplUJZvieEligKBkA)
 * [Tolga Özuygur](https://www.youtube.com/channel/UCMPCc9hZ-YBZkEon9tzESVA)
 * [Selman Kahya](https://www.youtube.com/channel/UC9Z-Gc_BkYuW75jKcTJICJA)
-* [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw) en
-* [Ben Eater](https://www.youtube.com/user/eaterbc/featured) en
+* [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw)
+* [Ben Eater](https://www.youtube.com/user/eaterbc/featured)
 * [Tarık Güney](https://www.youtube.com/channel/UC4I7mk5atVNtFDNI1c8yOWA)
 * [Programlama için Oynatma Listem](https://www.youtube.com/playlist?list=PL12JO-ro7MPbBk5AbPAr99eJaGC7icwx9)
