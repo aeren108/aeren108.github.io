@@ -188,6 +188,10 @@ strong {
 
 .post-teaser {
     margin-bottom: 10px;
+    
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 .post-teaser a {
