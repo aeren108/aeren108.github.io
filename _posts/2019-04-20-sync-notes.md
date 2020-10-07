@@ -9,7 +9,7 @@ comments: false
 ![ScreenShot](https://github.com/aeren108/sync_notes/blob/master/screenshots/sync-notes-05.png?raw=true)
 
 ### **Nedir Bu Sync Notes ?**
-Sync Notes android ve bilgisayardaki notlarınısı senkronize edebildiğiniz not alma uygulamasıdır. Başka bir deyişle basit portatif yapışkan notlar uygulaması. Google Keep ve Microsoft Sticky Notes'u basitçe harmanlamaya çalıştım.<br><br>
+Sync Notes android ve bilgisayardaki notlarınısı senkronize edebildiğiniz not alma uygulaması. Başka bir deyişle basit portatif yapışkan notlar uygulaması. Google Keep ve Microsoft Sticky Notes'u basitçe harmanlamaya çalıştım.<br>
 
 [[Projenin Github Sayfası]](https://github.com/aeren108/sync_notes)
 

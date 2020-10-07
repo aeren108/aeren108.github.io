@@ -9,7 +9,7 @@ comments: false
 ![ScreenShot](https://github.com/aeren108/color_splash/blob/master/pics/telefon_ornek.jpg?raw=true)
 
 ### **Nedir Bu Color Splash ?**
-Color Splash yukarıdaki resimde gördüğünüz efekti üreten bir Windows masaüstü uygulaması. Yaptığı şey kısaca belirli bir renk skalasını vurgulayıp kalanını filtrelemek.<br><br>
+Color Splash yukarıdaki resimde gördüğünüz efekti üreten bir Windows masaüstü uygulaması. Yaptığı şey kısaca belirli bir renk skalasını vurgulayıp kalanını filtrelemek.<br>
 
 [[Projenin Github Sayfası]](https://github.com/aeren108/color_splash)
 
