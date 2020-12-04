@@ -20,6 +20,6 @@ HTML Editor oluşturabilmek için HTML ve CSS hakkında daha fazla şey öğrend
 Android uygulamadan MySQL veritabanına erişmek için bir REST API'ye ihtiyacım olduğunu öğrendim ve Python ve Flask ile REST API geliştirmeyi öğrenmeye başladım.
 
 ### **Taslak Fikirler ve Problemler**
-Not pencerelerinin tasarımlarını sıfırdan yaptığım için hazır gelen pencere kontrollerini kullanmıyorum. Bunun için [BorderlessScene][bscene] adında bir JavaFX kütüphanesi buldum ve pencere kontrollerini bu kütüphane sağlıyor (yeniden boyutlandırma, sürükleme vb.). Ama arada not pencereleri piskopata bağlayıp çıldırabiliyor. Bunu çözmek için kendi sınıflarımı yazabilirim veya daha pürüzsüz çalışan bir kütüphane bulabilirim.
+Not pencerelerinin tasarımlarını sıfırdan yaptığım için hazır gelen pencere kontrollerini kullanmıyorum. Bunun için [BorderlessScene][bscene] adında bir JavaFX kütüphanesi buldum ve pencere kontrollerini bu kütüphane sağlıyor (yeniden boyutlandırma, sürükleme vb.). Ama arada not pencereleri psikopata bağlayıp çıldırabiliyor. Bunu çözmek için kendi sınıflarımı yazabilirim veya daha pürüzsüz çalışan bir kütüphane bulabilirim.
 
 [bscene]: https://github.com/NicolasSenetLarson/BorderlessScene

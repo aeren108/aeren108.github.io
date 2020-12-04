@@ -82,6 +82,6 @@ public Vector2[] Cevir(int r, Vector2[] tetromino) {
 
 ---
 
-Anlatmaya çalıştım ama galiba karıştırdım biraz. En fazla bu kadar oldu.<br><br>
+Anlatmaya çalıştım ama ne kadar açıklayabildim bilmiyorum. En fazla bu kadar oldu.<br><br>
 Tetrominoları ekrana nasıl çizdirdiğimi, oyun mantığının nasıl işlediğini merak ediyorsanız daha önceden yaptığım Tetris klonunun kodlarını [buradan](https://github.com/aeren108/tetris) inceleyebilirsiniz.
 

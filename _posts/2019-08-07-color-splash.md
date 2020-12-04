@@ -18,7 +18,7 @@ C#'a hızlı bir giriş yaptım. Sözdizimine aşinaydım zaten, Java bildiğimd
 C# ile Windows Formları oluşturmayı öğrendim ve resim işleme bilgilerimi güçlendirdim. Aynı zamanda RGB dışında diğer renk uzayları hakkında bilgi sahibi oldum, HSV, HSL, CMYK gibi.
 
 ### *Kısa C# Hakkında*
-C#, Java'ya sözdizimi bakımından çok benziyor ama C#'ı Java'ya göre daha kullanışlı ve daha pratik buldum. C#'taki delegate yapısı ile fonksiyonları parametre olarak geçmek veya bir fonksiyondan döndürmek çok daha kolay. Struct ve pointerlar ile daha performanslı uygulamalar yazılabiliyor. Task Parallel Library de asenkron programlamayı çok daha pratik bir hale getiriyor. Bu gibi özelliklerden dolayı eğer Windows için bir uygulama geliştiriyorsam C# tercih edeceğim ilk dil olur.
+C#, Java'ya sözdizimi bakımından çok benziyor ama C#'ı Java'ya göre daha kullanışlı ve daha pratik buldum. C#'taki delegate yapısı ile fonksiyonları parametre olarak geçmek veya bir fonksiyondan döndürmek çok daha kolay. Task Parallel Library de asenkron programlamayı çok daha pratik bir hale getiriyor. Bu gibi özelliklerden dolayı eğer Windows için bir uygulama geliştiriyorsam C# tercih edeceğim ilk dil olur.
 
 ### **Taslak Fikirler Ve Problemler**
 Snackbar'ın hiç bir animasyonu yok ve ekranın altında öyle belirip yok oluyor. Herhangi bir animasyonla çok daha güzel gözükebilir.<br><br>
