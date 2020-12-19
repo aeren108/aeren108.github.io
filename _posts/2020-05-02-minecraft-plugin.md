@@ -6,7 +6,7 @@ date: 2020-05-02
 comments: false
 ---
 
-Bir süredir Java ile bir şeyler yapıyordum ve neden Minecraft için bir mod veya plugin yazmayayım dedim. Mod geliştirmek plugin yamaya göre biraz daha meşakkatli olduğu için plugin geliştirmeye karar verdim. <br>
+Bir süredir Java ile bir şeyler yapıyordum ve neden Minecraft için bir mod veya plugin yazmayayım dedim. Mod geliştirmek plugin yazmaya göre biraz daha meşakkatli olduğu için plugin geliştirmeye karar verdim. <br>
 
 
 ### Rumble
