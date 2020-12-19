@@ -29,7 +29,7 @@ Bu ne işe yarayacak, hemen açıklıyorum. Yine yukarıdaki tetrominoyu ele ala
 
 Tamam, elimizde bu sayılar var ama bana 90 derece döndürülmüş koordinatlar lazım diyorsanız, şöyle yapıyoruz: Elimizde karenin kaçıncı kare olduğunun bilgisi var.
 Bu sayıya *'n'* diyelim, yani n'inci kareye bakıyoruz. n'in 4'ten kalanı, yani sütun sayısından kalanı, bize *'x'* koordinatını verir. Ve n'i 4'e böldüğümüzde bölümün tam kısmı bize *'y'* koordinatını verir, çünkü her satır 4'ün katları ile başlıyor. <br>
-Örnek vereyim hemen: 7. kareyi ele alalım, 4'ten kalanı **3**, 4'e bölümünden elde edilen sayının tam kısmı **1**. Bu da bize **(3, 1)** koordinatını verir.
+Örnek vermek gerekirse: 7. kareyi ele alalım, 4'ten kalanı **3**, 4'e bölümünden elde edilen sayının tam kısmı **1**. Bu da bize **(3, 1)** koordinatını verir.
 
 --- 
 
