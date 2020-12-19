@@ -34,5 +34,7 @@ Bu plugin'e ve komutlarına da aşağıdaki Bukkit sayfasınan ulaşabilirsiniz.
 ![Loglist](../../../../../assets/img/loglist.jpg)
 ![Deathlog](../../../../../assets/img/deathlog.jpg)
 
+***
+
 ### Bu Projeler Bana Neler Öğretti ?
 İki projeyi de düşünürsek [Bukkit Plugin API](https://bukkit.gamepedia.com/Main_Page) kullanarak Minecraft için plugin geliştirmeyi öğrendim. Rumble özelinde konuşursak, yeni bir şey öğrendiğimi söyleyemem. Logation'da ise her oyuncunun kayıtlarını ve ölümlerini tutmam gereken bir veritabanına ihtiyacım vardı bundan dolayı Java ile SQLite veritabanı kullanmayı öğrendim. 
