@@ -18,7 +18,7 @@ Evet, bu plugin'e çok yaratıcı bir şekilde Rumble ismini verdim. Mini-oyun s
 
 <video style="margin: 0 auto; width: 100%;
   max-height: 100%;" controls>
-  <source src="../../../../assets/vid/rumblerecord.mp4" type="video/mp4">
+  <source src="../../../../../assets/vid/rumblerecord.mp4" type="video/mp4">
 </video> 
 
 Tek başıma oynadığım için sıkıcı gözüküyor olabilir ama çok kişiyle eğlenceli olacağanı düşünüyorum.
@@ -31,8 +31,8 @@ Bu plugin'e ve komutlarına da aşağıdaki Bukkit sayfasınan ulaşabilirsiniz.
 [[Projenin Github Sayfası]](https://github.com/aeren108/logation)<br>
 [[Bukkit Plugin Sayfası]](https://dev.bukkit.org/projects/logation)
 
-![Loglist](../../../../assets/img/loglist.jpg)
-![Deathlog](../../../../assets/img/deathlog.jpg)
+![Loglist](../../../../../assets/img/loglist.jpg)
+![Deathlog](../../../../../assets/img/deathlog.jpg)
 
 ### Bu Projeler Bana Neler Öğretti ?
 İki projeyi de düşünürsek [Bukkit Plugin API](https://bukkit.gamepedia.com/Main_Page) kullanarak Minecraft için plugin geliştirmeyi öğrendim. Rumble özelinde konuşursak, yeni bir şey öğrendiğimi söyleyemem. Logation'da ise her oyuncunun kayıtlarını ve ölümlerini tutmam gereken bir veritabanına ihtiyacım vardı bundan dolayı Java ile SQLite veritabanı kullanmayı öğrendim. 
