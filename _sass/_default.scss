@@ -99,6 +99,10 @@ strong {
     font-weight: 700;
     color: $iron;
     display: block;
+
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .menu {
@@ -145,7 +149,7 @@ strong {
 .page-title {
     margin-top:75px;
     margin-bottom:50px;
-    text-align: left;
+    text-align: center;
 }
 
 .page-title__text {
