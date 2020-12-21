@@ -165,6 +165,8 @@ strong {
 
 .post-title__text {
     font-size: 36px;
+    text-decoration: underline;
+    text-decoration-color: $link-hover;
 }
 
 .post-title__subtitle {
