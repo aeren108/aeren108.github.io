@@ -6,9 +6,7 @@ date: 2020-05-17
 comments: false
 ---
 
-Bu yazıda Python kullanarak bilgisayar kullanırken hayatımı kolaylaştırabilecek geliştirdiğim otomasyon projeleri hakkında konuşacağım.<br>
-PyAutoGUI kütüphanesini kullandım ama Selenium gibi farklı kütüphaneler de kullanılabilir. PyAutoGUI dökümantasyonu için 
-[bu sayfaya](https://pyautogui.readthedocs.io/en/latest/) gidebilirsiniz.<br>
+Bu yazıda Python kullanarak bilgisayar kullanırken hayatımı kolaylaştırabilecek geliştirdiğim otomasyon projeleri hakkında konuşacağım. Bu programları yazarken PyAutoGUI kütüphanesini kullandım. PyAutoGUI dökümantasyonu için [bu sayfaya](https://pyautogui.readthedocs.io/en/latest/) gidebilirsiniz.<br>
 
 **Alt Başlıklar**
 - [Otomatik Şarkı Çalma Programı](#otomatik-şarkı-çalma-programı)
