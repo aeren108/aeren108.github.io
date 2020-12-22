@@ -2,6 +2,6 @@
     <div class="about__devider">~</div>
     <div class="about__text">
         Bu yazı <strong> {% if page.author.fullname %} {{ page.author.fullname }} {% else %} {{ site.author.fullname }} {% endif %}</strong> tarafından,
-        <strong>{{ page.date | date: "%d %m %Y" }}</strong> tarihinde yazılmıştır.
+        <strong>{{ page.date | date: "%d/%m/%Y" }}</strong> tarihinde yazılmıştır.
     </div>
 </div>
