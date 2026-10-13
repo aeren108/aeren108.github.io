@@ -138,6 +138,43 @@ hr.site-divider {
   }
 }
 
+.year-filter-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.65rem;
+  font-family: monospace;
+  font-size: 13.5px;
+  margin: -0.35rem 0 2rem 0;
+
+  .filter-label {
+    color: #888888;
+  }
+
+  .filter-btn {
+    color: $link-color;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:visited {
+      color: $link-color;
+    }
+
+    &:hover {
+      text-decoration: underline;
+      color: #cc0000;
+    }
+
+    &.is-active {
+      color: $fg-color;
+      font-weight: bold;
+      cursor: default;
+      text-decoration: none;
+      pointer-events: none;
+    }
+  }
+}
+
 .gallery-content {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px;
@@ -262,6 +299,47 @@ hr.site-divider {
 
   p {
     margin: 1rem 0;
+  }
+}
+
+.floating-back-to-top {
+  position: fixed;
+  bottom: 2rem;
+  left: calc(6vw + 650px + 1.25rem);
+  right: auto;
+  z-index: 99;
+  font-family: monospace;
+  font-size: 13px;
+  background: $bg-color;
+  color: $link-color;
+  text-decoration: none;
+  padding: 0.35rem 0.65rem;
+  border: 1px dashed #cccccc;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  visibility: hidden;
+  white-space: nowrap;
+  transition: opacity 0.2s ease, visibility 0.2s ease, border-color 0.15s ease;
+
+  &.is-visible {
+    opacity: 0.95;
+    visibility: visible;
+  }
+
+  &:hover {
+    color: #cc0000;
+    text-decoration: underline;
+    opacity: 1;
+    border-color: #999999;
+  }
+
+  @media (max-width: 860px) {
+    left: auto;
+    right: 1.25rem;
+    bottom: 1.25rem;
+    font-size: 12.5px;
+    padding: 0.3rem 0.55rem;
   }
 }
 
@@ -508,6 +586,205 @@ a {
     color: #cc0000;
   }
 }
+
+// -------------- MINIMAL LIGHTBOX -------------- //
+.photo-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .lightbox-backdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(13, 17, 23, 0.94);
+    cursor: zoom-out;
+  }
+
+  .lightbox-container {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    padding: 1rem 1.5rem;
+    box-sizing: border-box;
+    pointer-events: none;
+  }
+
+  .lightbox-header {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    font-size: 13.5px;
+    color: #8b949e;
+    pointer-events: auto;
+    margin-bottom: 0.5rem;
+    flex-shrink: 0;
+  }
+
+  .lightbox-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex: 1;
+    min-width: 0; // Essential for Firefox flexbox sizing
+    min-height: 0; // Essential for Firefox flexbox sizing
+    overflow: hidden;
+  }
+
+  .lightbox-image-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-width: calc(100vw - 180px); // 90px clear margin on left & right ensures no overlap on Firefox
+    max-height: calc(100vh - 130px);
+    min-width: 0; // Essential for Firefox flex child calculation
+    min-height: 0;
+    pointer-events: auto;
+
+    .lightbox-img {
+      max-width: 100%;
+      max-height: calc(100vh - 130px);
+      width: auto;
+      height: auto;
+      object-fit: contain;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+      border-radius: 2px;
+      user-select: none;
+      display: block;
+    }
+  }
+
+  .lightbox-btn {
+    background: transparent;
+    border: 0;
+    color: #8b949e;
+    font-family: monospace;
+    cursor: pointer;
+    padding: 0.5rem;
+    pointer-events: auto;
+    transition: color 0.15s ease;
+    white-space: nowrap; // Prevents any wrapping within brackets
+    flex-shrink: 0;
+    user-select: none;
+
+    &:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+
+    &.lightbox-close {
+      font-size: 13.5px;
+      &:hover { color: #ff7b72; }
+    }
+
+    &.lightbox-prev, &.lightbox-next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 10;
+      font-size: 16px;
+      color: #8b949e;
+      background: transparent;
+      border: 0;
+      padding: 0.5rem;
+
+      &:hover {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+    }
+
+    &.lightbox-prev {
+      left: 1.5rem;
+    }
+
+    &.lightbox-next {
+      right: 1.5rem;
+    }
+  }
+
+  .lightbox-footer {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: monospace;
+    font-size: 13px;
+    color: #c9d1d9;
+    pointer-events: auto;
+    margin-top: 0.5rem;
+    flex-shrink: 0;
+
+    .lightbox-caption-text {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 13.5px;
+      color: #e6edf3;
+    }
+
+    .lightbox-caption-meta {
+      font-family: monospace;
+      color: #8b949e;
+      font-size: 12.5px;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .lightbox-container {
+      padding: 0.75rem 0.5rem;
+    }
+
+    .lightbox-image-wrap {
+      max-width: 100%;
+      max-height: calc(100vh - 120px);
+
+      .lightbox-img {
+        max-height: calc(100vh - 120px);
+      }
+    }
+
+    .lightbox-btn.lightbox-prev, .lightbox-btn.lightbox-next {
+      text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
+      font-size: 15px;
+    }
+
+    .lightbox-btn.lightbox-prev {
+      left: 0.5rem;
+    }
+
+    .lightbox-btn.lightbox-next {
+      right: 0.5rem;
+    }
+  }
+}
+// ---------------------------------------------- //
 
 
 // -------------- THEME SWITCHER -------------- //

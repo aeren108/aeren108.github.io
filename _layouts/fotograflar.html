@@ -10,6 +10,14 @@ layout: default
   <a class="view-switch" href="{{ "/" | relative_url }}">← yazılar</a>
 </div>
 
+<nav class="year-filter-nav" aria-label="Yıl Filtresi">
+  <span class="filter-label">// yıl:</span>
+  <a class="filter-btn is-active" href="#all" data-year="all">[ hepsi (52) ]</a>
+  <a class="filter-btn" href="#2026" data-year="2026">[ 2026 (15) ]</a>
+  <a class="filter-btn" href="#2025" data-year="2025">[ 2025 (8) ]</a>
+  <a class="filter-btn" href="#2024" data-year="2024">[ 2024 (29) ]</a>
+</nav>
+
 <div class="gallery-content">
   {{ content }}
 
@@ -17,6 +25,32 @@ layout: default
 
   <footer class="gallery-footer">
     <span class="end-of-roll">// filmin sonu</span>
-    <a class="back-to-top" href="#">[ ↑ başa dön ]</a>
   </footer>
+</div>
+
+<a id="floating-back-to-top" class="floating-back-to-top" href="#" aria-label="Başa dön">[ ↑ başa dön ]</a>
+
+<div id="photo-lightbox" class="photo-lightbox" aria-hidden="true" role="dialog" aria-label="Fotoğraf Görüntüleyici">
+  <div class="lightbox-backdrop"></div>
+  <div class="lightbox-container">
+    <header class="lightbox-header">
+      <span class="lightbox-counter">#01 / 52</span>
+      <button type="button" class="lightbox-btn lightbox-close" aria-label="Kapat">[ esc / kapat ✕ ]</button>
+    </header>
+
+    <button type="button" class="lightbox-btn lightbox-prev" aria-label="Önceki fotoğraf">[ ← ]</button>
+
+    <div class="lightbox-content">
+      <div class="lightbox-image-wrap">
+        <img class="lightbox-img" src="" alt="büyütülmüş fotoğraf" />
+      </div>
+    </div>
+
+    <button type="button" class="lightbox-btn lightbox-next" aria-label="Sonraki fotoğraf">[ → ]</button>
+
+    <footer class="lightbox-footer">
+      <div class="lightbox-caption-text"></div>
+      <div class="lightbox-caption-meta"></div>
+    </footer>
+  </div>
 </div>
