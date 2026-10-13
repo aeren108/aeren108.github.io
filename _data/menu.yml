@@ -1,8 +1,7 @@
 # For documentation on this file, see:
 # https://github.com/riggraz/no-style-please#customize-the-menu
-
 entries:
-  - title: internetin bana ayrılan bu kısmında, <br/> zaman zaman bir şeyler karalıyorum
+  - title: internetin bana ayrılan bu kısmında, zaman zaman bir şeyler karalıyorum.
   - title: <b> ben </b>
     entries:
       - title: github
@@ -11,11 +10,11 @@ entries:
         url: https://linkedin.com/in/eren-colak
       - title: e-posta
         url: mailto:aeren108@outlook.com
-  - title: <b> yazılar </b>
+  - title: yazılar
     post_list:
       limit: 5
       show_more: true
-      show_more_text: tüm yazılar... >
+      show_more_text: "[ tüm yazılar → ]"
       show_more_url: archive.html
 
   # - title: kategori-1

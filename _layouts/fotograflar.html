@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{%- include site_header.html -%}
+
+<hr class="site-divider" />
+
+<div class="view-switcher">
+  <span class="view-active">fotoğraflar</span>
+  <a class="view-switch" href="{{ "/" | relative_url }}">← yazılar</a>
+</div>
+
+<div class="gallery-content">
+  {{ content }}
+
+  <hr class="site-divider" />
+
+  <footer class="gallery-footer">
+    <span class="end-of-roll">// filmin sonu</span>
+    <a class="back-to-top" href="#">[ ↑ başa dön ]</a>
+  </footer>
+</div>

@@ -1,0 +1,15 @@
+<header class="home-header">
+  <h1 class="site-title"><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+  <p class="site-bio">{{ page.bio | default: page.description | default: site.description }}</p>
+  <nav class="home-nav">
+    {%- for item in site.data.menu.entries -%}
+      {%- if item.entries -%}
+        {%- for sub in item.entries -%}
+          <a href="{{ sub.url | relative_url }}" {% if sub.url contains "://" %}target="_blank" rel="noopener"{% endif %}>[ {{ sub.title }} ]</a>
+        {%- endfor -%}
+      {%- elsif item.url -%}
+        <a href="{{ item.url | relative_url }}" {% if item.url contains "://" %}target="_blank" rel="noopener"{% endif %}>[ {{ item.title }} ]</a>
+      {%- endif -%}
+    {%- endfor -%}
+  </nav>
+</header>
