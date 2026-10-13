@@ -52,7 +52,7 @@ Mauris viverra dictum ultricies. Vestibulum quis ipsum euismod, facilisis metus 
 
 Now some code:
 
-```
+```javascript
 const ultimateTruth = 'this theme is the best!';
 console.log(ultimateTruth);
 ```

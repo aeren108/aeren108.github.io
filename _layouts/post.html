@@ -13,4 +13,27 @@ layout: default
   <div class="post-content">
     {{ content }}
   </div>
+
+  <footer class="post-footer">
+    <hr class="site-divider" />
+    <nav class="post-nav">
+      <div class="post-nav-item post-nav-prev">
+        {%- if page.previous -%}
+          <a href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title }}">[ ← önceki ]</a>
+        {%- else -%}
+          <span class="post-nav-disabled">[ ← önceki ]</span>
+        {%- endif -%}
+      </div>
+      <div class="post-nav-item post-nav-home">
+        <a href="{{ "/" | relative_url }}">[ ana sayfa ]</a>
+      </div>
+      <div class="post-nav-item post-nav-next">
+        {%- if page.next -%}
+          <a href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">[ sonraki → ]</a>
+        {%- else -%}
+          <span class="post-nav-disabled">[ sonraki → ]</span>
+        {%- endif -%}
+      </div>
+    </nav>
+  </footer>
 </article>

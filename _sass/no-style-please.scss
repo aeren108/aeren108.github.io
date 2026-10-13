@@ -1,4 +1,5 @@
 @import 'colors';
+@import 'syntax';
 
 // bg color is also needed in html in order to
 // block body's background propagation
@@ -346,6 +347,60 @@ hr.site-divider {
   font-family: monospace;
 }
 
+.post-footer {
+  margin-top: 3.5rem;
+
+  hr.site-divider {
+    margin-bottom: 1.5rem;
+  }
+
+  .post-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-family: monospace;
+    font-size: 13.5px;
+    gap: 0.5rem;
+
+    .post-nav-item {
+      flex: 1;
+
+      &.post-nav-prev {
+        text-align: left;
+      }
+
+      &.post-nav-home {
+        text-align: center;
+        flex: 0 0 auto;
+      }
+
+      &.post-nav-next {
+        text-align: right;
+      }
+
+      a {
+        color: $link-color;
+        text-decoration: none;
+
+        &:visited {
+          color: $link-color;
+        }
+
+        &:hover {
+          text-decoration: underline;
+          color: #cc0000;
+        }
+      }
+
+      .post-nav-disabled {
+        color: #cccccc;
+        cursor: default;
+        user-select: none;
+      }
+    }
+  }
+}
+
 h2, h3, h4, h5, h6 { margin-top: 3rem; }
 
 hr { margin: 2rem 0; }
@@ -385,23 +440,53 @@ table, th, td {
 }
 
 code {
-  color: white;
-  background: black;
+  font-family: monospace;
+  font-size: 0.88em;
+  background: #f4f4f4;
+  color: #212427;
+  padding: 0.15em 0.35em;
+  border-radius: 3px;
 }
 
-div.highlighter-rouge code {
-  display: block;
-  overflow-x: auto;
-  white-space: pre-wrap;
-  padding: 1rem;
+div.highlighter-rouge {
+  margin: 1.75rem 0;
+  border: 1px solid #30363d;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #0d1117;
+
+  pre {
+    margin: 0;
+    padding: 0.9rem 1.15rem;
+    overflow-x: auto;
+    background: #0d1117;
+  }
+
+  code {
+    background: transparent;
+    color: #c9d1d9;
+    padding: 0;
+    border-radius: 0;
+    font-size: 13.5px;
+    line-height: 1.5;
+    white-space: pre;
+  }
 }
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
-  padding: 1rem;
+  border: 0;
+  border-left: 3px solid #cccccc;
+  margin: 1.5rem 0;
+  padding: 0.25rem 0 0.25rem 1.15rem;
+  color: #444444;
 
-  p { margin: 0; }
+  p {
+    margin: 0.5rem 0;
+
+    &:first-child { margin-top: 0; }
+    &:last-child { margin-bottom: 0; }
+  }
 }
 
 img {

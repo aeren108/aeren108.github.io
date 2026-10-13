@@ -1,0 +1,108 @@
+/* ==========================================================================
+   GitHub Dark (Primer Dark) Syntax Highlighting Theme
+   ========================================================================== */
+
+.highlight {
+  background-color: #0d1117;
+  color: #c9d1d9;
+
+  table td { padding: 5px; }
+  table pre { margin: 0; }
+
+  // Comments
+  .c, .ch, .cd, .cm, .c1, .cs, .cp, .cpf {
+    color: #8b949e;
+    font-style: italic;
+  }
+
+  // Keywords & Operators
+  .k, .kd, .kn, .kp, .kr, .kt, .kv {
+    color: #ff7b72;
+    font-weight: bold;
+  }
+  .o, .ow {
+    color: #ff7b72;
+  }
+
+  // Strings
+  .s, .sa, .sb, .sc, .dl, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss {
+    color: #a5d6ff;
+  }
+
+  // Numbers & Constants
+  .m, .mb, .mf, .mh, .mi, .il, .mo, .mx {
+    color: #79c0ff;
+  }
+  .kc, .no {
+    color: #79c0ff;
+    font-weight: bold;
+  }
+
+  // Functions & Methods
+  .nf, .fm {
+    color: #d2a8ff;
+    font-weight: bold;
+  }
+
+  // Classes & Builtins
+  .nc, .nn {
+    color: #ffa657;
+    font-weight: bold;
+  }
+  .nb, .bp {
+    color: #ffa657;
+  }
+
+  // Variables & Attributes
+  .nv, .vc, .vg, .vi, .vm {
+    color: #79c0ff;
+  }
+  .na {
+    color: #79c0ff;
+  }
+
+  // Tags (HTML/XML)
+  .nt {
+    color: #7ee787;
+  }
+  .nd {
+    color: #d2a8ff;
+  }
+
+  // Punctuation
+  .p {
+    color: #c9d1d9;
+  }
+
+  // Errors
+  .err {
+    color: #f85149;
+    background-color: rgba(248, 81, 73, 0.15);
+  }
+
+  // Diffs
+  .gd {
+    color: #ffdcd7;
+    background-color: rgba(248, 81, 73, 0.15);
+  }
+  .gi {
+    color: #aff5b4;
+    background-color: rgba(46, 160, 67, 0.15);
+  }
+  .ge {
+    font-style: italic;
+  }
+  .gs {
+    font-weight: bold;
+  }
+  .gh {
+    color: #8b949e;
+    font-weight: bold;
+  }
+  .gu {
+    color: #79c0ff;
+  }
+  .w {
+    color: #484f58;
+  }
+}
